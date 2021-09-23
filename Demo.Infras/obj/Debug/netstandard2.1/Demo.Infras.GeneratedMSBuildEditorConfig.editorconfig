@@ -1,0 +1,4 @@
+is_global = true
+build_property.RefitInternalNamespace = Demo.Infras
+build_property.RootNamespace = Demo.Infras
+build_property.ProjectDir = C:\demoprojects-master\Demo\Demo.Infras\

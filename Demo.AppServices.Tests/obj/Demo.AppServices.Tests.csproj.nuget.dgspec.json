@@ -1,0 +1,486 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\demoprojects-master\\Demo\\Demo.AppServices.Tests\\Demo.AppServices.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\demoprojects-master\\Demo\\Demo.AppServices.Tests\\Demo.AppServices.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\demoprojects-master\\Demo\\Demo.AppServices.Tests\\Demo.AppServices.Tests.csproj",
+        "projectName": "Demo.AppServices.Tests",
+        "projectPath": "C:\\demoprojects-master\\Demo\\Demo.AppServices.Tests\\Demo.AppServices.Tests.csproj",
+        "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
+        "outputPath": "C:\\demoprojects-master\\Demo\\Demo.AppServices.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\demoprojects-master\\Demo\\NuGet.Config",
+          "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/drunkcoding/_packaging/HBD/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "netcoreapp5.0",
+            "projectReferences": {
+              "C:\\demoprojects-master\\Demo\\Demo.AppServices\\Demo.AppServices.csproj": {
+                "projectPath": "C:\\demoprojects-master\\Demo\\Demo.AppServices\\Demo.AppServices.csproj"
+              },
+              "C:\\demoprojects-master\\Demo\\Demo.Infras.Lite\\Demo.Infras.Lite.csproj": {
+                "projectPath": "C:\\demoprojects-master\\Demo\\Demo.Infras.Lite\\Demo.Infras.Lite.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "netcoreapp5.0",
+          "dependencies": {
+            "AutoBogus.Conventions": {
+              "target": "Package",
+              "version": "[2.13.1, )"
+            },
+            "AutoBogus.Moq": {
+              "target": "Package",
+              "version": "[2.13.1, )"
+            },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.10.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\demoprojects-master\\Demo\\Demo.AppServices\\Demo.AppServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\demoprojects-master\\Demo\\Demo.AppServices\\Demo.AppServices.csproj",
+        "projectName": "Demo.AppServices",
+        "projectPath": "C:\\demoprojects-master\\Demo\\Demo.AppServices\\Demo.AppServices.csproj",
+        "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
+        "outputPath": "C:\\demoprojects-master\\Demo\\Demo.AppServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\demoprojects-master\\Demo\\NuGet.Config",
+          "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/drunkcoding/_packaging/HBD/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\demoprojects-master\\Demo\\Demo.Domains\\Demo.Domains.csproj": {
+                "projectPath": "C:\\demoprojects-master\\Demo\\Demo.Domains\\Demo.Domains.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "HBD.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "HBD.EfCore.BizActions": {
+              "target": "Package",
+              "version": "[5.0.25, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Scrutor": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\demoprojects-master\\Demo\\Demo.Core\\Demo.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\demoprojects-master\\Demo\\Demo.Core\\Demo.Core.csproj",
+        "projectName": "Demo.Core",
+        "projectPath": "C:\\demoprojects-master\\Demo\\Demo.Core\\Demo.Core.csproj",
+        "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
+        "outputPath": "C:\\demoprojects-master\\Demo\\Demo.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\demoprojects-master\\Demo\\NuGet.Config",
+          "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/drunkcoding/_packaging/HBD/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\demoprojects-master\\Demo\\Demo.Domains\\Demo.Domains.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\demoprojects-master\\Demo\\Demo.Domains\\Demo.Domains.csproj",
+        "projectName": "Demo.Domains",
+        "projectPath": "C:\\demoprojects-master\\Demo\\Demo.Domains\\Demo.Domains.csproj",
+        "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
+        "outputPath": "C:\\demoprojects-master\\Demo\\Demo.Domains\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\demoprojects-master\\Demo\\NuGet.Config",
+          "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/drunkcoding/_packaging/HBD/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\demoprojects-master\\Demo\\Demo.Core\\Demo.Core.csproj": {
+                "projectPath": "C:\\demoprojects-master\\Demo\\Demo.Core\\Demo.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "HBD.EfCore.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.133, )"
+            },
+            "HBD.EfCore.DataAuthorization": {
+              "target": "Package",
+              "version": "[5.0.133, )"
+            },
+            "HBD.EfCore.Repos.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.133, )"
+            },
+            "System.Threading.Tasks.Extensions": {
+              "target": "Package",
+              "version": "[4.5.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\demoprojects-master\\Demo\\Demo.Infras.Lite\\Demo.Infras.Lite.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\demoprojects-master\\Demo\\Demo.Infras.Lite\\Demo.Infras.Lite.csproj",
+        "projectName": "Demo.Infras.Lite",
+        "projectPath": "C:\\demoprojects-master\\Demo\\Demo.Infras.Lite\\Demo.Infras.Lite.csproj",
+        "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
+        "outputPath": "C:\\demoprojects-master\\Demo\\Demo.Infras.Lite\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\demoprojects-master\\Demo\\NuGet.Config",
+          "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/drunkcoding/_packaging/HBD/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\demoprojects-master\\Demo\\Demo.AppServices\\Demo.AppServices.csproj": {
+                "projectPath": "C:\\demoprojects-master\\Demo\\Demo.AppServices\\Demo.AppServices.csproj"
+              },
+              "C:\\demoprojects-master\\Demo\\Demo.Infras\\Demo.Infras.csproj": {
+                "projectPath": "C:\\demoprojects-master\\Demo\\Demo.Infras\\Demo.Infras.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoBogus": {
+              "target": "Package",
+              "version": "[2.13.1, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\demoprojects-master\\Demo\\Demo.Infras\\Demo.Infras.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\demoprojects-master\\Demo\\Demo.Infras\\Demo.Infras.csproj",
+        "projectName": "Demo.Infras",
+        "projectPath": "C:\\demoprojects-master\\Demo\\Demo.Infras\\Demo.Infras.csproj",
+        "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
+        "outputPath": "C:\\demoprojects-master\\Demo\\Demo.Infras\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\demoprojects-master\\Demo\\NuGet.Config",
+          "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/drunkcoding/_packaging/HBD/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\demoprojects-master\\Demo\\Demo.AppServices\\Demo.AppServices.csproj": {
+                "projectPath": "C:\\demoprojects-master\\Demo\\Demo.AppServices\\Demo.AppServices.csproj"
+              },
+              "C:\\demoprojects-master\\Demo\\Demo.Core\\Demo.Core.csproj": {
+                "projectPath": "C:\\demoprojects-master\\Demo\\Demo.Core\\Demo.Core.csproj"
+              },
+              "C:\\demoprojects-master\\Demo\\Demo.Domains\\Demo.Domains.csproj": {
+                "projectPath": "C:\\demoprojects-master\\Demo\\Demo.Domains\\Demo.Domains.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "HBD.EfCore.Events": {
+              "target": "Package",
+              "version": "[5.0.133, )"
+            },
+            "HBD.EfCore.Extensions": {
+              "target": "Package",
+              "version": "[5.0.133, )"
+            },
+            "HBD.EfCore.Hooks": {
+              "target": "Package",
+              "version": "[5.0.133, )"
+            },
+            "HBD.EfCore.Repos": {
+              "target": "Package",
+              "version": "[5.0.133, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

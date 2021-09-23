@@ -1,0 +1,4 @@
+is_global = true
+build_property.RefitInternalNamespace = Demo.AppServices
+build_property.RootNamespace = Demo.AppServices
+build_property.ProjectDir = C:\demoprojects-master\Demo\Demo.AppServices\

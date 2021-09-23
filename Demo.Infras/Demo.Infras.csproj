@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Abstracts\**" />
+    <Compile Remove="Migrations\**" />
+    <Compile Remove="Quotations\**" />
+    <Compile Remove="Recipients\**" />
+    <EmbeddedResource Remove="Abstracts\**" />
+    <EmbeddedResource Remove="Migrations\**" />
+    <EmbeddedResource Remove="Quotations\**" />
+    <EmbeddedResource Remove="Recipients\**" />
+    <None Remove="Abstracts\**" />
+    <None Remove="Migrations\**" />
+    <None Remove="Quotations\**" />
+    <None Remove="Recipients\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="HBD.EfCore.Events" Version="5.0.133" />
+    <PackageReference Include="HBD.EfCore.Extensions" Version="5.0.133" />
+    <PackageReference Include="HBD.EfCore.Hooks" Version="5.0.133" />
+    <PackageReference Include="HBD.EfCore.Repos" Version="5.0.133" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Demo.AppServices\Demo.AppServices.csproj" />
+    <ProjectReference Include="..\Demo.Core\Demo.Core.csproj" />
+    <ProjectReference Include="..\Demo.Domains\Demo.Domains.csproj" />
+  </ItemGroup>
+</Project>
